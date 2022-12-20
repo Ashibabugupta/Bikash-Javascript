@@ -1,0 +1,191 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: serif;}
+body{
+    max-width: 1440px;
+    margin: auto;
+    background-color: #f0f4f5;
+    overflow: visible;}    
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 25vh;
+    margin: 10px 50px;}    
+.search-icon{
+    position: relative;
+    top: 22px;
+    right: 60px;}  
+.nav-button{
+    position: relative;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap:60px;
+}
+.list :nth-child(3){ order: -1;}
+.list :nth-child(1){order: -1;}
+
+.list :nth-child(1){
+    font-size: 22px;
+    font-weight: bolder;
+    text-decoration-line: underline;    
+}
+
+.list :nth-child(2){
+    font-weight: bolder;
+    font-size: 20px;
+}
+.list:first-child{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.list :nth-child(3){
+    font-weight: bolder;
+    font-size: 20px;
+}
+.list :nth-child(4){
+    font-weight: bolder;
+    font-size: 20px;
+}
+.nav-button{
+    padding:5px 35px;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-weight: 50px;
+    font-size: large;
+}
+.globe{
+    position: absolute;
+    left: 695px;
+    top: 210px;
+}
+div img{
+  position: relative;
+  bottom:5px;
+  left: 60px;    
+}
+.square{
+    position: absolute;
+    left: 200px;
+    top: 510px;
+    z-index: -1;
+}
+.navbar-container div img{
+    position: relative;
+    top: 9px;
+    left: 10px;
+}
+.hero-heading{
+    position: absolute;
+    left: 720px;
+    top: 300px;    
+}
+.hero-heading{
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;}
+.hero-description{
+    position: absolute;
+    left:720px;
+    top: 420px;
+    max-width: 770px;
+    margin: 1%;
+    text-align: center;
+    padding: 5px 5px;
+}
+.button-email{
+  position: absolute;
+  left: 870px;
+  top: 647px;
+}
+.button-join{
+    position: absolute;
+    left:1050px;
+    top: 650px}
+.contact-heading{
+    position:absolute;
+    left:980px;
+    bottom: -190px;
+    font-size: 22px;    
+}
+.button-join{
+    border-radius: 5px;
+    height: 25px;
+    width: 99px;
+    color: white;
+    background-color: black;
+}
+
+.button-email{
+    border-color: black;
+    height:30px;
+    width: 150px;
+    border-radius: 8px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size:medium;}
+
+.star:nth-child(2) img{
+ position: absolute;
+ top: 225px;
+ left: 1145px;
+ }
+.star:nth-child(3) img{
+    position: absolute;
+    top:770px;
+    left: 730px;
+}
+.icons span:nth-child(1) img{
+    position: absolute;
+    left: 910px;
+    top: 830px;
+}
+.icons span:nth-child(2) img{
+    position: absolute;
+    left:975px;
+    bottom:-225px;
+}
+.icons span:nth-child(3) img{
+    position: absolute;
+    left:1040px;
+    bottom:-225px;
+}
+.icons span:nth-child(4) img{
+    position: absolute;
+    left: 1098px;
+    bottom: -225px;
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
